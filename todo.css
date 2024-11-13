@@ -28,7 +28,7 @@ body{
 #home0{
   padding:12px;
   width:30vw;
-  min-height:100vh;
+  height:100vh;
   background:linear-gradient(
   to bottom, hsla(211, 100%, 53%, .60),
  hsla(211, 100%, 53%, .75)
