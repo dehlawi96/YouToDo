@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Eater&family=Faustina:ital,wght@0,300..800;1,300..800&family=Jacquard+24&family=Jacquard+24+Charted&family=Jersey+25+Charted&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo+Swash+Caps&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:hsla(235, 7%, 70%, .51);
+}
+#inputs{
+  display: none ;
+}
+#mainsection{
+  display:flex;
+  height:calc(100vh-50px);
+}
+
+#homeX{
+  margin:0;
+  padding-top:0;
+  padding-left: 10px;
+  padding-bottom:15px;
+  font:35px "Eater";
+  width:100vw;
+  height:40px;
+  background: hsla(211, 100%, 53%, .55);
+  color:hsla(127, 0%, 0%, 1);
+}
+#home0{
+  padding:12px;
+  width:30vw;
+  min-height:100vh;
+  background:linear-gradient(
+  to bottom, hsla(211, 100%, 53%, .60),
+ hsla(211, 100%, 53%, .75)
+  );
+}
+#home00, #sourceCode, #gitHub, #linkedIn{
+  margin:70px 12px 0 0;
+  padding:auto;
+  font:35px "Jersey 25 Charted";
+}
+a{
+  text-decoration: none;
+  color:black;
+  background: transparent;
+}
+a:hover{
+  background: transparent;
+}
+
+#rightsection{
+  flex:1;
+  padding:20px;
+  min-height:100vh;
+  overflow-y:auto;
+}
+#h1{
+  font: bold 25px Lato;
+  margin-bottom:12px;
+}
+#toAdd{
+  margin-bottom:12px;
+  width:100px;
+  height:50px;
+  font: bold 14.5px Lato;
+  padding:4px;
+  border: none;
+  outline:none;
+  border-radius:25px;
+  background:hsla(276, 3%, 68%, .71)
+}
+#inputs input, #inputs textarea, select, option, label{
+  width:100%;
+  margin-bottom:12px;
+  padding:8px;
+  font:16px Macondo Swash Caps;
+}
+#submitX{
+  margin-bottom:12px;
+  width:100px;
+  height:50px;
+  font: bold 18.5px Lato;
+  padding:4px;
+  border: none;
+  outline:none;
+  border-radius:25px;
+  background:hsla(276, 3%, 68%, .71)
+}
+#listX {
+  width:100%;
+  margin-top: 10px;
+  font: 16px Lato;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: hsla(276, 3%, 68%, .10);
+  list-style-type: none;
+}
+
+#listX li {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: #F9F9F9;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#listX li button {
+  width:100px;
+  height:50px;
+  margin-top: 8px;
+  padding: 5px 10px;
+  font: bold 14px Lato;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background: hsla(276, 3%, 68%, .71);
+  color: black;
+  cursor: pointer;
+}
+
+#listX li button:hover {
+  background: hsla(276, 3%, 68%, 1);
+}
