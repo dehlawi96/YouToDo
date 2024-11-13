@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouToDo</title>
+  <link rel="shortcut icon" type="image/x-icon" href="">
+  <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>  
+
+     <div id="homeX">
+       <div id="LogoX">YouToDo</div> 
+    </div>
+ <div id="mainsection">
+<main>
+  
+    <div id="home0">
+      <div id="home00"><a href="index.html">Home</a></div>
+      <div id="sourceCode"><a href="#">Source Code</a></div>
+      <div id="gitHub"><a href="#">Github</a></div>
+      <div id="linkedIn"><a href="#">LinkedIn</a></div>
+    </div>
+
+</main>
+<div id="rightsection">
+    
+<div id="h1"><h3>Tasks</h3></div>
+<div id="home1">
+  <div id="buttonX">
+    <button id="toAdd" onclick="toadd()">Add your List</button>
+  </div>
+  <div id="inputs">
+    <input required placeholder="Title" type="text" id="textX">
+    <textarea required placeholder="Description" name="" id="description" cols="40" rows="3"></textarea>
+    <label for="dueDate">Select DeadLine</label>
+    <input required placeholder="Deadline" type="date" id="dueDate"><br>
+    <label for="priority">Select Priority</label>
+    <select  id="priority">
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select><br>
+    <button id="submitX" onclick="submitX()">Submit</button>
+  </div>
+  <div id="list">
+    <ul>
+      <li id="listX"></li>
+    </ul>
+  </div>
+  
+</div>
+</div>
+ </div>
+<script type="module" src="todo.js"></script>
+
+</body>
+
+</html>
